@@ -9,7 +9,7 @@ export default function Navbar({ className }: { className?: string }) {
   return (
     <div
       className={cn(
-        "fixed top-10 inset-x-0 max-w-2xl mx-auto z-50 border-[1px] border-blue-500 rounded-full bg-transparent",
+        "fixed top-9 inset-x-0 max-w-2xl mx-auto z-50  rounded-full  ",
         className
       )}
     >
@@ -17,8 +17,8 @@ export default function Navbar({ className }: { className?: string }) {
         <Link href="/">
           <MenuItem setActive={setActive} active={active} item="Home"/> {/* this is the home icon in navbar */}
         </Link>
-
-        <MenuItem setActive={setActive} active={active} item="Pricing">
+         
+        <MenuItem setActive={setActive} active={active} item="About me">
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="#">Hobby</HoveredLink>   {/*  Hoverlink is from the this will work like Link tag */ }
             <HoveredLink href="#">Individual</HoveredLink>

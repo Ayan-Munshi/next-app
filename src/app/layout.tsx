@@ -12,11 +12,11 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: Readonly<{  // ts type decleration code
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="">
+    <html lang="en" className="dark bg-black">
       <body className={inter.className}>
         <Navbar/>
         {children}

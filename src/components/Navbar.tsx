@@ -20,7 +20,7 @@ export default function Navbar({ className }: { className?: string }) {
          
         <MenuItem setActive={setActive} active={active} item="About me">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="#">Hobby</HoveredLink>   {/*  Hoverlink is from the this will work like Link tag */ }
+            <HoveredLink href="/routes/Sparkles_animation">Skills</HoveredLink>   {/*  Hoverlink is from the this will work like Link tag */ }
             <HoveredLink href="#">Individual</HoveredLink>
             <HoveredLink href="#">Team</HoveredLink>
             <HoveredLink href="#">Enterprise</HoveredLink>
